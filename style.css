@@ -1,0 +1,85 @@
+
+
+/* Padding blanc */
+.white-padding {
+padding: 30px; /* ou la valeur que vous souhaitez */
+background-color:white ;
+}
+
+/* Padding gris */
+.gray-padding {
+padding: 40px;  /* ou la valeur que vous souhaitez */
+background-color :#d3d3d3;  /* ou la couleur grise de votre choix */
+}
+
+/* Padding jaune */
+.yellow-padding {
+padding: 30px; /* ou la valeur que vous souhaitez */
+background-color:#fcfcea ;  /* ou la couleur grise de votre choix */
+}
+body {
+font-family: Arial, sans-serif;
+margin: 0px;
+padding: 20px; 
+border: 2px solid red;
+background-color: white; /* Couleur de fond du texte */
+}
+
+header {
+padding:20px ;
+text-align:center ;
+}
+
+main {
+padding: 20px;
+font-family:'calibri', sans-serif ;
+font-weight:bold ;
+font: size 18px; 
+}
+
+.separator {
+border:2px solid #b71236 ; /* Ligne rouge en gras */
+width: 100%;
+margin: 10px 0; /* Espacement autour de la ligne */
+}
+
+
+footer a {
+    text-decoration: underline; /* Soulignez le lien */
+    color: #d3d3d3; /* Couleur du texte du lien */
+}
+
+.centered-image {
+    
+    max-width: 95%; /* Pour que l'image ne dépasse pas la largeur du cadre */
+    
+}
+
+.centered-square {
+    text-align:center ;
+    padding: 0px;
+    background-color:#fff ; /* Couleur de fond blanche */
+    border:2px solid black ; /* Bordure solide noire */
+    margin: 0 auto;
+    width: 40%; /* Largeur  */}
+    
+
+.gray-underline {
+    color: #888; /* Couleur grise */
+    text-decoration:underline ; /* Soulignez le lien */
+}
+.literature-poem {
+    margin:10px ;
+    padding:10px ; /* Ajout d'une marge interne de 10px pour plus d'espace à l'intérieur du div */
+    width:30% ;
+    box-sizing: border-box; /* Inclure la marge et le rembourrage dans la largeur du div */
+}
+
+.literature-poem p {
+    margin:0 ;
+    line-height:1.5 ;
+}
+
+
+
+        
